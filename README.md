@@ -70,3 +70,19 @@ Open your browser and visit:
 
 # Screenshot setting:
 
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen1</h3>
+  <img src="Screenshot/apnweb.png" alt="Screen1" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
+  <p style="color: #555; font-size: 14px;">Preview of the APN Web Interface</p>
+</div>
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen2</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb2.png?raw=true" alt="Screen2" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
+  <p style="color: #555; font-size: 14px;">Preview 2 of the APN Web Interface</p>
+</div>
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen3</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb3.png?raw=true" alt="Screen3" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
+  <p style="color: #555; font-size: 14px;">Preview 3 of the APN Web Interface</p>
+</div>
+
