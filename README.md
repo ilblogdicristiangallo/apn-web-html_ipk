@@ -48,21 +48,21 @@ Username: root
 
 Password: (blank or your router password)
 
-Upload apn-web_1.0_all.ipk to the /tmp directory
+Upload apn-web.ipk to the /tmp directory
 
 Open a terminal (via PuTTY or WinSCP) and run:
 
-<pre>opkg install /tmp/apn-web_1.0_all.ipk</pre>
+<pre>opkg install /tmp/apn-web.ipk</pre>
 
 # Insstallation Method 2: SCP (Linux/macOS)
 Copy the file to your router:
-<pre>scp apn-web_1.0_all.ipk root@192.168.1.1:/tmp/</pre>
+<pre>scp apn-web.ipk root@192.168.1.1:/tmp/</pre>
 
 # SSH into the router:
 <pre>ssh root@192.168.1.1</pre>
 
 Install the package:
-<pre>opkg install /tmp/apn-web_1.0_all.ipk</pre>
+<pre>opkg install /tmp/apn-web.ipk</pre>
 
 # Access
 Open your browser and visit:
