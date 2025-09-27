@@ -87,4 +87,21 @@ Open your browser and go to:
 
 # Interface Screenshots
 
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen 1</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen.png?raw=true" alt="APN Web Interface Screen 1" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+  <p style="color: #555; font-size: 14px;">Initial APN selection interface (QMI or ModemManager supported)</p>
+</div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen 2</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen2.png?raw=true" alt="APN Web Interface Screen 2" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+  <p style="color: #555; font-size: 14px;">APN details pre-filled with detection based on selected modem type</p>
+</div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen 3</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen3.png?raw=true" alt="APN Web Interface Screen 3" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+  <p style="color: #555; font-size: 14px;">Final configuration confirmation with available action buttons</p>
+</div>
 
