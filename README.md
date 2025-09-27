@@ -1,18 +1,24 @@
-# apn-web_1.0_all.ipk
-The apn-web.ipk package allows automatic APN configuration for all Italian mobile operators directly from the web, using either desktop or mobile browsers.
+# apn-web_1.0.1_all.ipk
 
-# apn-web_1.0_all.ipk is a package for OpenWrt that enables automatic APN configuration for all Italian mobile operators through a web interface. The interface is compatible with both desktop and mobile browsers and is designed to configure WAN connections using the QMI protocol.
+The apn-web.ipk package enables automatic APN configuration for all Italian mobile operators directly from a web interface, accessible via both desktop and mobile browsers.
 
-If the WAN interface is already configured as qmi and cellular, the system automatically detects the active APN and pre-fills it in the page, streamlining the setup. Just click Apply configuration to activate the changes.
+# Description
+
+apn-web_1.0.1_all.ipk is an OpenWrt package that provides automatic APN configuration for all Italian mobile operators through a web interface. The interface works on both desktop and mobile browsers and is designed to configure WAN connections using either the QMI protocol or ModemManager, which can now be selected directly from the apn.html page.
+
+If the WAN interface is already configured as qmi or modemmanager (cellular), the system automatically detects the active APN and pre-fills it in the interface, making the setup even easier. Just click Apply Configuration to activate the changes.
 
 Features
+
 Predefined APN selector (TIM, Vodafone, WindTre, Iliad, etc.)
 
 IP type selection: IPv4, IPv6, IPv4v6
 
 Optional SIM PIN input
 
-Automatic APN pre-fill if QMI WAN is active
+Automatic APN pre-fill if WAN is active (QMI or ModemManager)
+
+Modem type selection: QMI or ModemManager
 
 Buttons for:
 
@@ -20,7 +26,7 @@ Applying configuration (set_apn)
 
 Restarting WAN (restart_wan)
 
-Rebooting router (reboot_router)
+Rebooting the router (reboot_router)
 
 Copying selected APN
 
@@ -29,18 +35,21 @@ Localized success/error messages (Italian/English)
 Responsive layout for smartphones and tablets
 
 # Requirements
-OpenWrt router 4G
 
-QMI-compatible modem (cdc-wdm)
+OpenWrt router with 4G-5G modem
 
-WAN interface using qmi protocol
+QMI-compatible modem (cdc-wdm) or ModemManager-compatible modem
 
-# Installation: Method 1: WinSCP (Windows)
+WAN interface configured as qmi or modemmanager
+
+# Installation
+# Method 1: WinSCP (Windows)
+
 Connect to your router using WinSCP:
 
 Protocol: SCP
 
-Hostname: 192.168.1.1
+Host: 192.168.1.1
 
 Port: 22
 
@@ -48,41 +57,32 @@ Username: root
 
 Password: (blank or your router password)
 
-Upload apn-web.ipk to the /tmp directory
+Upload the file apn-web_1.0.1_all.ipk to the /tmp directory
 
 Open a terminal (via PuTTY or WinSCP) and run:
 
-<pre>opkg install /tmp/apn-web.ipk</pre>
+opkg install /tmp/apn-web_1.0.1_all.ipk
 
-# Insstallation Method 2: SCP (Linux/macOS)
+# Method 2: SCP (Linux/macOS)
+
 Copy the file to your router:
-<pre>scp apn-web.ipk root@192.168.1.1:/tmp/</pre>
 
-# SSH into the router:
+<pre>scp apn-web_1.0.1_all.ipk root@192.168.1.1:/tmp/</pre>
+
+
+SSH into the router:
+
 <pre>ssh root@192.168.1.1</pre>
 
-Install the package:
-<pre>opkg install /tmp/apn-web.ipk</pre>
 
-# Access
-Open your browser and visit:
+Install the package:
+
+<pre>opkg install /tmp/apn-web_1.0.1_all.ipk</pre>
+
+Access the Interface
+
+Open your browser and go to:
+
 <pre>http://192.168.1.1/apn.html</pre>
 
-# Screenshot setting:
-
-<div style="text-align: center; margin: 20px 0;">
-  <h3>Screen1</h3>
-  <img src="Screenshot/apnweb.png" alt="Screen1" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
-  <p style="color: #555; font-size: 14px;">Preview of the APN Web Interface</p>
-</div>
-<div style="text-align: center; margin: 20px 0;">
-  <h3>Screen2</h3>
-  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb2.png?raw=true" alt="Screen2" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
-  <p style="color: #555; font-size: 14px;">Preview 2 of the APN Web Interface</p>
-</div>
-<div style="text-align: center; margin: 20px 0;">
-  <h3>Screen3</h3>
-  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb3.png?raw=true" alt="Screen3" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
-  <p style="color: #555; font-size: 14px;">Preview 3 of the APN Web Interface</p>
-</div>
-
+<pre>Interface Screenshots</pre>
