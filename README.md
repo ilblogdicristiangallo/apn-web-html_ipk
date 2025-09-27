@@ -61,7 +61,7 @@ Upload the file apn-web_1.0.1_all.ipk to the /tmp directory
 
 Open a terminal (via PuTTY or WinSCP) and run:
 
-opkg install /tmp/apn-web_1.0.1_all.ipk
+<pre>opkg install /tmp/apn-web_1.0.1_all.ipk</pre>
 
 # Method 2: SCP (Linux/macOS)
 
