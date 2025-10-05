@@ -4,7 +4,7 @@ The apn-web.ipk package enables automatic APN configuration for all Italian mobi
 
 # Description
 
-apn-web_1.0.1_all.ipk is an OpenWrt package that provides automatic APN configuration for all Italian mobile operators through a web interface. The interface works on both desktop and mobile browsers and is designed to configure WAN connections using either the QMI protocol or ModemManager, which can now be selected directly from the apn.html page.
+apn-web_1.0.2_all.ipk is an OpenWrt package that provides automatic APN configuration for all Italian mobile operators through a web interface. The interface works on both desktop and mobile browsers and is designed to configure WAN connections using either the QMI protocol or ModemManager, which can now be selected directly from the apn.html page.
 
 If the WAN interface is already configured as qmi or modemmanager (cellular), the system automatically detects the active APN and pre-fills it in the interface, making the setup even easier. Just click Apply Configuration to activate the changes.
 
@@ -57,17 +57,17 @@ Username: root
 
 Password: (blank or your router password)
 
-Upload the file apn-web_1.0.1_all.ipk to the /tmp directory
+Upload the file apn-web_1.0.2_all.ipk to the /tmp directory
 
 Open a terminal (via PuTTY or WinSCP) and run:
 
-<pre>opkg install /tmp/apn-web_1.0.1_all.ipk</pre>
+<pre>opkg install /tmp/apn-web_1.0.2_all.ipk</pre>
 
 # Method 2: SCP (Linux/macOS)
 
 Copy the file to your router:
 
-<pre>scp apn-web_1.0.1_all.ipk root@192.168.1.1:/tmp/</pre>
+<pre>scp apn-web_1.0.2_all.ipk root@192.168.1.1:/tmp/</pre>
 
 
 SSH into the router:
@@ -77,7 +77,7 @@ SSH into the router:
 
 Install the package:
 
-<pre>opkg install /tmp/apn-web_1.0.1_all.ipk</pre>
+<pre>opkg install /tmp/apn-web_1.0.2_all.ipk</pre>
 
 Access the Interface
 
