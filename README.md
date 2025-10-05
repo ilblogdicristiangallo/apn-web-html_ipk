@@ -1,4 +1,4 @@
-# apn-web_1.0.1_all.ipk
+# apn-web_1.0.2_all.ipk
 
 The apn-web.ipk package enables automatic APN configuration for all Italian mobile operators directly from a web interface, accessible via both desktop and mobile browsers.
 
@@ -85,6 +85,22 @@ Open your browser and go to:
 
 <pre>http://192.168.1.1/apn.html</pre>
 
+# FIX APN Version 1.0.2 ADD APN:
+
+Optima Mobile
+
+Uno Mobile
+
+Feder Mobile
+
+Ops! Mobile
+
+NTMobile
+
+Green Mobile
+
+Daily Telecom Mobile
+
 # Interface Screenshots
 
 <div style="text-align: center; margin: 20px 0;">
@@ -98,6 +114,7 @@ Open your browser and go to:
   <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen2.png?raw=true" alt="APN Web Interface Screen 2" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
   <p style="color: #555; font-size: 14px;">APN details pre-filled with detection based on selected modem type</p>
 </div>
+
 
 <div style="text-align: center; margin: 20px 0;">
   <h3>Screen 3</h3>
