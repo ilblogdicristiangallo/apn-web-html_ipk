@@ -1,4 +1,5 @@
 # apn-web_1.0.2_all.ipk
+<img src="https://www.ilblogdicristiangallo.com/wp-content/uploads/2025/10/1000146365.jpg" alt="Immagine dal blog di Cristian Gallo"></img>
 
 The apn-web.ipk package enables automatic APN configuration for all Italian mobile operators directly from a web interface, accessible via both desktop and mobile browsers.
 
