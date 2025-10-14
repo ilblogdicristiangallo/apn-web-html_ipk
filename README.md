@@ -1,13 +1,13 @@
-# apn-web_1.0.2_all.ipk
+# apn-web_1.0.3_all.ipk
 <img src="https://www.ilblogdicristiangallo.com/wp-content/uploads/2025/10/1000146365.jpg" alt="Immagine dal blog di Cristian Gallo"></img>
 
 The apn-web.ipk package enables automatic APN configuration for all Italian mobile operators directly from a web interface, accessible via both desktop and mobile browsers.
 
 # Description
 
-apn-web_1.0.2_all.ipk is an OpenWrt package that provides automatic APN configuration for all Italian mobile operators through a web interface. The interface works on both desktop and mobile browsers and is designed to configure WAN connections using either the QMI protocol or ModemManager, which can now be selected directly from the apn.html page.
+apn-web_1.0.3_all.ipk is an OpenWrt package that provides automatic APN configuration for all Italian mobile operators through a web interface. The interface works on both desktop and mobile browsers and is designed to configure WAN connections using either the QMI protocol, ModemManager and MBIM Cellular, which can now be selected directly from the apn.html page.
 
-If the WAN interface is already configured as qmi or modemmanager (cellular), the system automatically detects the active APN and pre-fills it in the interface, making the setup even easier. Just click Apply Configuration to activate the changes.
+If the WAN interface is already configured as qmi, modemmanager (cellular) and mbim Cellular, the system automatically detects the active APN and pre-fills it in the interface, making the setup even easier. Just click Apply Configuration to activate the changes.
 
 Features
 
@@ -17,17 +17,17 @@ IP type selection: IPv4, IPv6, IPv4v6
 
 Optional SIM PIN input
 
-Automatic APN pre-fill if WAN is active (QMI or ModemManager)
+Automatic APN pre-fill if WAN is active (QMI, ModemManager and MBIM Cellular)
 
-Modem type selection: QMI or ModemManager
+Modem type selection: QMI, ModemManager and MBIM Cellular
 
 Buttons for:
 
-Applying configuration (set_apn)
+Applying configuration
 
-Restarting WAN (restart_wan)
+Restarting WAN
 
-Rebooting the router (reboot_router)
+Rebooting the router
 
 Copying selected APN
 
@@ -39,9 +39,9 @@ Responsive layout for smartphones and tablets
 
 OpenWrt router with 4G-5G modem
 
-QMI-compatible modem (cdc-wdm) or ModemManager-compatible modem
+QMI-compatible modem (cdc-wdm), ModemManager-compatible modem and MBIM Cellular-compatible modem
 
-WAN interface configured as qmi or modemmanager
+WAN interface configured as qmi, modemmanager and MBIM Cellular
 
 # Installation
 # Method 1: WinSCP (Windows)
@@ -58,7 +58,7 @@ Username: root
 
 Password: (blank or your router password)
 
-Upload the file apn-web_1.0.2_all.ipk to the /tmp directory
+Upload the file apn-web_1.0.3_all.ipk to the /tmp directory
 
 Open a terminal (via PuTTY or WinSCP) and run:
 
@@ -68,7 +68,7 @@ Open a terminal (via PuTTY or WinSCP) and run:
 
 Copy the file to your router:
 
-<pre>scp apn-web_1.0.2_all.ipk root@192.168.1.1:/tmp/</pre>
+<pre>scp apn-web_1.0.3_all.ipk root@192.168.1.1:/tmp/</pre>
 
 
 SSH into the router:
@@ -78,7 +78,7 @@ SSH into the router:
 
 Install the package:
 
-<pre>opkg install /tmp/apn-web_1.0.2_all.ipk</pre>
+<pre>opkg install /tmp/apn-web_1.0.3_all.ipk</pre>
 
 Access the Interface
 
@@ -86,28 +86,12 @@ Open your browser and go to:
 
 <pre>http://192.168.1.1/apn.html</pre>
 
-# FIX APN Version 1.0.2 ADD APN:
-
-Optima Mobile
-
-Uno Mobile
-
-Feder Mobile
-
-Ops! Mobile
-
-NTMobile
-
-Green Mobile
-
-Daily Telecom Mobile
-
 # Interface Screenshots
 
 <div style="text-align: center; margin: 20px 0;">
   <h3>Screen 1</h3>
   <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen.png?raw=true" alt="APN Web Interface Screen 1" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
-  <p style="color: #555; font-size: 14px;">Initial APN selection interface (QMI or ModemManager supported)</p>
+  <p style="color: #555; font-size: 14px;">Initial APN selection interface (QMI, ModemManager and MBIM Cellular supported)</p>
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
@@ -120,6 +104,15 @@ Daily Telecom Mobile
 <div style="text-align: center; margin: 20px 0;">
   <h3>Screen 3</h3>
   <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen3.png?raw=true" alt="APN Web Interface Screen 3" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
-  <p style="color: #555; font-size: 14px;">Final configuration confirmation with available action buttons</p>
+
+</div>
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen 4</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web-1.0.3-interface2.png" alt="APN Web Interface Screen 4" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
 </div>
 
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen 5</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web-1.0.3-interface3.png?raw=true" alt="APN Web Interface Screen 5" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+  <p style="color: #555; font-size: 14px;">Final configuration confirmation with available action buttons</p>
+</div>
