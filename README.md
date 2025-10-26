@@ -116,3 +116,6 @@ Open your browser and go to:
   <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web-1.0.3-interface3.png?raw=true" alt="APN Web Interface Screen 5" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
   <p style="color: #555; font-size: 14px;">Final configuration confirmation with available action buttons</p>
 </div>
+
+# Visit my blog
+https://www.ilblogdicristiangallo.com
